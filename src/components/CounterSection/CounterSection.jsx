@@ -45,7 +45,7 @@ function AnimatedCounter({ end, label }) {
     if (!isVisible) return;
 
     let start = 1;
-    const duration = 1500; // total animation time
+    const duration = 1600; // total animation time
     const stepTime = Math.abs(Math.floor(duration / end));
 
     const counter = setInterval(() => {
