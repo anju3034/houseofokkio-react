@@ -1,0 +1,47 @@
+.third-wrapper {
+    width: 85%;
+    background-color: #12100f;
+    color: #fff;
+    padding: 100px 120px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+/* COLUMN 1 */
+.col-1 .section-label {
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #d9b85f;
+    font-weight: 600;
+    margin-left: 60px;
+}
+
+/* COLUMN 2 */
+.col-2 {
+  max-width: 480px;
+}
+
+.section-description {
+    line-height: 1.5;
+    font-size: 17px;
+    color: #dcdcdc;
+    text-align: left;
+    margin-left: -18px;
+    width: 80%;
+}
+
+/* COLUMN 3 */
+.col-3 {
+  display: flex;
+  align-items: center;
+}
+
+.section-title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-left: -60px;
+    margin-top: 16px;
+}
