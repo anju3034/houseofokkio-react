@@ -19,7 +19,7 @@ const Header = () => {
         {/* NAVIGATION MENU */}
         <nav className="nav-menu">
           <a href="/">Home</a>
-          <a href="/collections">Collections</a>
+          <a href="/collection">Collections</a>
           <a href="/about">About Us</a>
           <a href="/blog">Blog</a>
           <a href="/contact">Contact Us</a>

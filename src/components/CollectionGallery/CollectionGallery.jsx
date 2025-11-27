@@ -1,19 +1,24 @@
 import React, { useState } from "react";
-import "./AboutGallery.css";
+import "./CollectionGallery.css";
 
 const Gallery = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const items = [
     {
-      img: "/about-image.jpeg",
-      heading: "The Vision & Philosophy",
-      text: "At House of Okkio, style is effortless refined through presence, not attention. We craft eyewear as self-expression: timeless, intentional, and distinctly yours.",
+      img: "/galleryimage1.jpeg",
+      heading: "The Luxury Edit – A World of Prestige",
+      text: "Each frame is precision-crafted with refined detail, modern innovation, and timeless character. Designed for those who view eyewear as art — a reflection of presence, personality, and quiet confidence.",
     },
     {
-      img: "/about-image2.jpeg",
-      heading: "The Founders",
+      img: "/galleryimage3.jpeg",
+      heading: "The Precision Collection – Lightness Refined",
       text: "Feather-light, clinically refined, and crafted for everyday comfort — these frames embody subtle luxury and functional excellence. Designed for those who value minimalist aesthetics and precise detailing, each piece balances form and purpose effortlessly.",
+    },
+    {
+        img: "galleryimage2.jpeg",
+        heading: "The Expression Line – Culture, Creativity & Cool",
+        text: "Bold silhouettes, striking shapes, and refined detailing come together to turn eyewear into a personal statement. Crafted with high–quality, sustainable materials, each piece blends style-forward design with everyday wearability.",
     },
   ];
 
