@@ -14,10 +14,8 @@ export default function Eyewear() {
       <div className="col-2">
         <p className="section-description">
           At House of Okkio, we begin a new chapter where design meets purpose.
-          Every frame is crafted to elevate identity, celebrate individuality,
-          and complement personal expression. Our renewed vision focuses on
-          <strong> clarity, comfort, and contemporary style</strong>, shaped
-          through thoughtful craftsmanship and modern innovation.
+Every frame is crafted to elevate identity, celebrate individuality, and complement personal expression.
+Our renewed vision focuses on <strong>clarity, comfort, and contemporary style,</strong> shaped through thoughtful craftsmanship and modern innovation.
         </p>
       </div>
 
