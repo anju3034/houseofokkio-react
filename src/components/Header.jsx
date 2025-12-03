@@ -7,14 +7,17 @@ const Header = () => {
       <div className="header-inner">
 
         {/* LOGO */}
+        <a href="/">
         <div className="logo-section">
+         
           <img
-            src="/House-Of-Okkio-Logo-Final-06.png"  /* replace with your logo path */
+            src="/House-Of-Okkio-Logo-Final-06.png"  
             alt="House of Okkio"
             className="logo-img"
           />
           <h2 className="logo-text"></h2>
         </div>
+        </a>
 
         {/* NAVIGATION MENU */}
         <nav className="nav-menu">
