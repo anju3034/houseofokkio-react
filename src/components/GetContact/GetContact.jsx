@@ -1,5 +1,5 @@
 import React from "react"
-import "./GetContact.css";
+import "../GetContact/GetContact.css";
 
 export default function GetContact() {
     return(

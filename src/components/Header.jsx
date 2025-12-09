@@ -6,7 +6,7 @@ const Header = () => {
     <header className="header">
       <div className="header-inner">
 
-        {/* LOGO */}
+    
         <a href="/">
         <div className="logo-section">
          
@@ -19,7 +19,6 @@ const Header = () => {
         </div>
         </a>
 
-        {/* NAVIGATION MENU */}
         <nav className="nav-menu">
           <a href="/">Home</a>
           <a href="/collection">Collections</a>

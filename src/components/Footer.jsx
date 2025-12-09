@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
 
-      {/* Logo Section */}
+  
       <div className="footer-logo-section">
         <img src="/House-Of-Okkio-Logo-Final-06.png" alt="logo" className="footer-logo" />
         <h2></h2>
@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Footer Links */}
+   
       <div className="footer-links">
         
         <div>
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Section */}
+ 
       <div className="footer-bottom">
         <p>A Unit of Luxonyx Technologies Private Limited</p>
         <div className="footer-bottom-links">

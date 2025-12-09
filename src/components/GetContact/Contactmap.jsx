@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Contactmap.css";
+import "../GetContact/GetContact.css";
 
 export default function ContactSection() {
   const [message, setMessage] = useState("");
@@ -8,7 +8,6 @@ export default function ContactSection() {
   return (
     <div className="contact-container">
 
-      {/* Left Form */}
       <div className="contact-form">
         
         <input type="text" placeholder="Name" className="input-box" />
@@ -29,7 +28,6 @@ export default function ContactSection() {
         <button className="submit-btn">Submit</button>
       </div>
 
-      {/* Right Map */}
       <div className="contact-map">
         <iframe
           title="map"

@@ -13,7 +13,7 @@ export default function Slider() {
   return (
     <div className="slider-wrapper">
       <div className="slider-track">
-        {/* Duplicate images 2 times for seamless scroll */}
+       
         {images.concat(images).map((src, i) => (
           <div className="slide" key={i}>
             <img src={src} alt="product" />

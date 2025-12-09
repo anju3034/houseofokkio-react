@@ -5,7 +5,6 @@
   text-align: center;
 }
 
-/* Logo Section */
 .footer-logo-section img.footer-logo {
   width: 200px;
 }
@@ -16,7 +15,6 @@
   margin-top: 0;
 }
 
-/* Social Icons */
 .footer-social-icons {
   margin-top: 20px;
 }
@@ -26,7 +24,7 @@
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background: #d4a945;         /* gold color */
+  background: #d4a945;        
   justify-content: center;
   align-items: center;
   margin: 0 8px;
@@ -34,7 +32,6 @@
   color: black;
 }
 
-/* Footer Links Grid */
 .footer-links {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -62,7 +59,6 @@
   margin-right: 10px;
 }
 
-/* Bottom Bar */
 .footer-bottom {
   border-top: 1px solid #444;
   padding-top: 25px;

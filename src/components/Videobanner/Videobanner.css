@@ -1,11 +1,11 @@
 .video-container {
   width: 100%;
   height: auto;
-  overflow: hidden;   /* hides extra cropping */
+  overflow: hidden; 
 }
 
 .video-full {
   width: 100%;
   height: auto;
-  display: block;     /* removes unwanted gap */
+  display: block;     
 }

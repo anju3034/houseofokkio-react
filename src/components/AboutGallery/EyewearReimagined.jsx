@@ -1,5 +1,5 @@
 import React from "react";
-import "./EyewearReimagined.css";
+import "../AboutGallery/AboutGallery.css";
 
 export default function Eyewear() {
   return (

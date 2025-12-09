@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./CollectionGallery.css";
+import "../CollectionGallery/CollectionGallery.css";
 
 const Gallery = () => {
   const [activeIndex, setActiveIndex] = useState(null);

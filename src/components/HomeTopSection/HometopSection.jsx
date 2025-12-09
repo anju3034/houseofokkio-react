@@ -18,7 +18,7 @@ export default function HeroSection() {
         </p>
       </div>
 
-      {/* OKKIO background large logo */}
+      
       <div className="okkio-logo"></div>
     </section>
   );

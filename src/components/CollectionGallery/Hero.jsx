@@ -1,5 +1,5 @@
 import React from "react"
-import "./Hero.css";
+import "../CollectionGallery/CollectionGallery.css";
 
 export default function HeroSection() {
     return(

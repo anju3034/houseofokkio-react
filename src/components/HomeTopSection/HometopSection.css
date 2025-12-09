@@ -9,7 +9,6 @@
   overflow: hidden;
 }
 
-/* Dark gradient overlay (to match reference look) */
 .hero-overlay {
   position: absolute;
   inset: 0;
@@ -43,7 +42,6 @@
   width: 85%;
 }
 
-/* OKKIO big logo */
 .okkio-logo {
   position: absolute;
   bottom: -80px;

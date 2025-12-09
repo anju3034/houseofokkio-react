@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../ContactDetails/ContactDetails.css";
+import "../GetContact/GetContact.css";
 
 const faqItems = [
   {
@@ -35,19 +35,18 @@ export default function FAQSection() {
     <section className="faqx-section">
       <div className="faqx-wrapper">
 
-        {/* Header */}
         <div className="faqx-header">
           <h4>FAQ'S</h4>
           <h1>Everything You Need to Know</h1>
           <p>From design to detail, every pair is crafted with precision.</p>
         </div>
 
-        {/* FAQ Box */}
+      
         <div className="faqx-container">
           {faqItems.map((item, index) => (
             <div className="faqx-item" key={index}>
 
-              {/* Question Row */}
+            
               <div className="faqx-question" onClick={() => toggleFaq(index)}>
                 <span className="faqx-icon">
                   {openIndex === index ? "−" : "+"}
@@ -55,7 +54,6 @@ export default function FAQSection() {
                 <h3>{item.question}</h3>
               </div>
 
-              {/* Answer */}
               {openIndex === index && (
                 <p className="faqx-answer">{item.answer}</p>
               )}

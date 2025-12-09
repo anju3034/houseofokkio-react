@@ -1,5 +1,5 @@
 import React from "react"
-import "./ContactDetails.css";
+import "../GetContact/GetContact.css";
 import { FaFacebookF, FaTwitter, FaYoutube, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
 export default function FooterSection() {

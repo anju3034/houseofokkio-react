@@ -1,5 +1,5 @@
 import React from "react";
-import "./FeatureList.css";
+import "../AboutGallery/AboutGallery.css";
 
 export default function FeatureList() {
 

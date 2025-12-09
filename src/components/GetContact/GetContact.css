@@ -1,4 +1,3 @@
-/* Main container with two columns */
 .Get-touch {
   width: 100%;
   background: #121010;
@@ -11,13 +10,11 @@
   gap: 40px;
 }
 
-/* LEFT SIDE WRAPPER */
 .left-block {
   display: flex;
   flex-direction: column;
 }
 
-/* Big CONTACT heading */
 .big-heading h2 {
   font-size: 105px;
   font-weight: 500;
@@ -28,7 +25,6 @@
   margin-top: -50px;
 }
 
-/* CONNECT text */
 .contact-text h4 {
   font-size: 20px;
   font-weight: 500;
@@ -38,12 +34,10 @@
   padding-left: 45px;
 }
 
-/* Right Section */
 .right-contacttext {
   padding-top: 80px;
 }
 
-/* Right Heading */
 .right-contacttext h3 {
   font-size: 36px;
   font-weight: 500;
@@ -73,5 +67,254 @@
 
   .big-heading h2 {
     font-size: 80px;
+  }
+}
+
+/*ContactDetails Css*/
+
+.footer-container {
+  background: #141212;
+  padding: 0px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-top: 1px solid #3b3636;
+  flex-wrap: wrap;
+}
+
+.footer-box {
+  width: 23%;
+  min-width: 200px;
+}
+
+.footer-box h4 {
+  color: #d6b56d;      
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer-box p {
+  color: #dcdcdc;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons span {
+  width: 38px;
+  height: 38px;
+  background: #d6b56d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-icons span:hover {
+  transform: translateY(-4px);
+  opacity: 0.9;
+}
+
+/* ContactFaq css*/
+
+.faqx-section {
+  background: #000;
+  padding: 1px 0;
+}
+
+.faqx-wrapper {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  color: #fff;
+  position: relative;
+  top: -40px;
+}
+
+.faqx-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.faqx-header h4 {
+  color: #d2b36f;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.faqx-header h1 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.faqx-header p {
+  color: #b6b6b6;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.faqx-container {
+  background: #0f0f0f;
+  padding: 60px 65px;
+  border-radius: 35px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+}
+
+.faqx-item {
+  padding: 0px 0;
+}
+
+.faqx-divider {
+  border: none;
+  border-bottom: 1px solid #2f2f2f;
+  margin-top: 30px;
+}
+
+.faqx-question {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  cursor: pointer;
+}
+
+.faqx-question h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.faqx-icon {
+  font-size: 34px;
+  font-weight: 300;
+  color: #d2b36f;
+  min-width: 28px;
+}
+
+.faqx-answer {
+  color: #d2b36f;
+  font-size: 20px;
+  padding-left: 52px;
+  margin-top: 15px;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .faqx-container {
+    padding: 35px;
+  }
+  .faqx-question h3 {
+    font-size: 20px;
+  }
+  .faqx-answer {
+    font-size: 17px;
+  }
+}
+
+/*Contactmap Css*/
+.contact-container {
+      padding: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 5%;
+  background: #141212;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-form {
+  width: 32%;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-left: 70px;
+  
+}
+
+.input-box {
+  width: 100%;
+  padding: 18px 20px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  background: #fff;
+  font-size: 18px;
+}
+
+.textarea-wrapper {
+  position: relative;
+}
+
+.textarea {
+  width: 100%;
+  height: 100px;
+  padding: 18px 20px;
+  font-size: 18px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.char-count {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  color: #555;
+  font-size: 14px;
+}
+
+.submit-btn {
+  width: 110%;
+  background: #d7ba75;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+}
+
+.contact-map {
+  width: 50%;
+  min-width: 350px;
+  padding-right: 60px;
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+  border-radius: 25px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-form,
+  .contact-map {
+    width: 100%;
   }
 }
