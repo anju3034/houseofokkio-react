@@ -25,26 +25,29 @@ const blogData = [
 export default function BlogSection() {
   return (
     <section className="blog-section">
+      <div className="blog-container">
 
-    <div className="blog-heading">
-        <h2>BLOG</h2>
-    </div>
-      <div className="blog-wrapper">
-        {blogData.map((item, index) => (
-          <div className="blog-card" key={index}>
-            <img src={item.image} alt="" className="blog-img" />
+        <div className="blog-heading">
+          <h2>BLOG</h2>
+        </div>
 
-            <div className="blog-content">
-              <h2 className="blog-title">{item.title}</h2>
-              <p className="blog-date">{item.date}</p>
-              <p className="blog-desc">{item.desc}</p>
+        <div className="blog-wrapper">
+          {blogData.map((item, index) => (
+            <div className="blog-card" key={index}>
+              <img src={item.image} alt={item.title} className="blog-img" />
 
-              <a className="blog-readmore" href="#">
-                Read More →
-              </a>
+              <div className="blog-content">
+                <h3 className="blog-title">{item.title}</h3>
+                <p className="blog-date">{item.date}</p>
+                <p className="blog-desc">{item.desc}</p>
+                <a className="blog-readmore" href="#">
+                  Read More →
+                </a>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
+
       </div>
     </section>
   );

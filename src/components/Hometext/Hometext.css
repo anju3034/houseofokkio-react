@@ -1,18 +1,75 @@
 .Text-group {
-    background: black;
-    color: white;
-    padding: 1px 120px;
-    display: flex;
-    padding-top: 50px;
-    margin-bottom: -50px;
+  background: #000;
+  color: #fff;
+  padding: 60px 120px;
+  display: flex;
+  gap: 50px;
+  margin-bottom: -50px;
 }
 
 .heading-text {
-    width: 82%;
-    font-size: 22px;
-    font-weight: 400;
+  width: 82%;
 }
+
+.heading-text h2 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
 .para-text {
-    width: 70%;
-    margin-top: 40px;
+  width: 70%;
+}
+
+.para-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #e0e0e0;
+}
+
+@media (max-width: 1024px) {
+  .Text-group {
+    padding: 50px 60px;
+    gap: 30px;
+  }
+
+  .heading-text,
+  .para-text {
+    width: 100%;
+  }
+
+  .heading-text h2 {
+    font-size: 28px;
+  }
+
+  .para-text {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Text-group {
+    flex-direction: column;
+    padding: 40px 20px;
+    margin-bottom: 0;
+  }
+
+  .heading-text h2 {
+    font-size: 24px;
+  }
+
+  .para-text p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading-text h2 {
+    font-size: 22px;
+  }
+
+  .para-text p {
+    font-size: 14px;
+  }
 }

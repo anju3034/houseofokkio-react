@@ -1,25 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className="header">
       <div className="header-inner">
-
-    
-        <a href="/">
-        <div className="logo-section">
-         
+        
+        <a href="/" className="logo-section">
           <img
-            src="/House-Of-Okkio-Logo-Final-06.png"  
+            src="/House-Of-Okkio-Logo-Final-06.png"
             alt="House of Okkio"
             className="logo-img"
           />
-          <h2 className="logo-text"></h2>
-        </div>
         </a>
 
-        <nav className="nav-menu">
+        <div
+          className={`hamburger ${menuOpen ? "active" : ""}`}
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        
+        <nav className={`nav-menu ${menuOpen ? "open" : ""}`}>
           <a href="/">Home</a>
           <a href="/collection">Collections</a>
           <a href="/about">About Us</a>

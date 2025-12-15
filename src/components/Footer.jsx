@@ -4,11 +4,13 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-
   
       <div className="footer-logo-section">
-        <img src="/House-Of-Okkio-Logo-Final-06.png" alt="logo" className="footer-logo" />
-        <h2></h2>
+        <img
+          src="/House-Of-Okkio-Logo-Final-06.png"
+          alt="logo"
+          className="footer-logo"
+        />
 
         <div className="footer-social-icons">
           <span><i className="fab fa-facebook-f"></i></span>
@@ -19,9 +21,7 @@ const Footer = () => {
         </div>
       </div>
 
-   
       <div className="footer-links">
-        
         <div>
           <h3>Careers</h3>
           <p>Home</p>
@@ -52,15 +52,13 @@ const Footer = () => {
         </div>
       </div>
 
- 
       <div className="footer-bottom">
-        <p>A Unit of Luxonyx Technologies Private Limited</p>
+        <p>© A Unit of Luxonyx Technologies Private Limited</p>
         <div className="footer-bottom-links">
           <a href="#">Terms & Condition</a>
           <a href="#">Privacy Policy</a>
         </div>
       </div>
-
     </footer>
   );
 };

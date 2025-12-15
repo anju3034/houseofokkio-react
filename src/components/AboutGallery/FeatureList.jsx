@@ -27,13 +27,10 @@ export default function FeatureList() {
       {items.map((item, i) => (
         <div key={i} className="feature-row">
           
-          {/* LEFT TITLE */}
           <h3 className="feature-title">{item.title}</h3>
 
-          {/* MIDDLE SUBTITLE */}
           <p className="feature-subtitle">{item.subtitle}</p>
 
-          {/* RIGHT ARROW BUTTON */}
           <button className="arrow-btn">
             →
           </button>

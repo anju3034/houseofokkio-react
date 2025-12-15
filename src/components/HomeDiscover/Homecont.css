@@ -1,18 +1,82 @@
 .Section-collection {
-    background: black;
-    color: white;
-    padding: 80px 120px;
-    display: flex;
-    gap: 200px;
+  background: #000;
+  color: #fff;
+  padding: 80px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
 }
+
 .leftsection {
-    width: 30%;
+  width: 30%;
 }
 
 .leftsection h4 {
-    color: #d4a945;
-    font-size: 20px;
+  color: #d4a945;
+  font-size: 20px;
+  margin-bottom: 15px;
 }
-h2 {
-    font-size: 50px;
+
+.leftsection p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #e0e0e0;
+}
+
+.rightsection {
+  width: 60%;
+}
+
+.rightsection h2 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@media (max-width: 1024px) {
+  .Section-collection {
+    padding: 60px 60px;
+    gap: 60px;
+  }
+
+  .leftsection,
+  .rightsection {
+    width: 100%;
+  }
+
+  .rightsection h2 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Section-collection {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 30px;
+    text-align: left;
+  }
+
+  .leftsection h4 {
+    font-size: 18px;
+  }
+
+  .leftsection p {
+    font-size: 15px;
+  }
+
+  .rightsection h2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .rightsection h2 {
+    font-size: 24px;
+  }
+
+  .leftsection p {
+    font-size: 14px;
+  }
 }
